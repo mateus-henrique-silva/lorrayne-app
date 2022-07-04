@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
 import "./boxMsg.css";
+interface StateBox {
+  state: string;
+}
 
-
-const boxMsg = () => {
+const boxMsg: React.FC<StateBox> = (props, { state }) => {
+  const BoxState = {
+    display: props.state,
+  };
   return (
-    <div className="BoxMsg" >
-
-        <div className="BoxMsgSub">
+    <div className="BoxMsg" style={BoxState}>
+      <div className="BoxMsgSub">
         <h2>TERMO DE CIÊNCIA</h2>
         <hr />
         <span>
@@ -15,11 +19,9 @@ const boxMsg = () => {
           – SINDIPETRO/NF e poderá ser descontinuada por decisão unilateral
           desta entidade.
         </span>
-       
-        </div>
-        
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default boxMsg
+export default boxMsg;

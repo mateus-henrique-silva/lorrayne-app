@@ -23,7 +23,7 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Love</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <Msg/>
+        <Msg state="none"/>
         <Box text="Amor" fontSize="20px" colorText="#ffff" color="#F47C7C" />
        
         <Box text="Amizade" fontSize="20px" colorText="#ffff" color="#F47C7C" />
