@@ -1,6 +1,6 @@
 {
-  "name": "lorrayne-app",
-  "version": "0.0.1",
+  "name": "start",
+  "version": ":3001",
   "private": true,
   "dependencies": {
     "@capacitor/app": "1.1.1",
@@ -67,5 +67,8 @@
   "devDependencies": {
     "@capacitor/cli": "3.6.0"
   },
-  "description": "An Ionic project"
+  "description": "estudo/presentes",
+  "main": "index.js",
+  "author": "mateus-henrique-silva <henrique.s@gsuite.com.br>",
+  "license": "MIT"
 }

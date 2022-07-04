@@ -1,22 +1,44 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Tab1.css';
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/react";
+
+import "./Tab1.css";
+import Box from "../components/BoxComponents";
 
 const Tab1: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle>Love</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
+            <IonTitle size="large">Love</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
+        <Box text="Amor" fontSize="20px" colorText="#ffff" color="#F47C7C" />
+        <Box text="Amizade" fontSize="20px" colorText="#ffff" color="#F47C7C" />
+        <Box
+          text="Admiração"
+          fontSize="20px"
+          colorText="#ffff"
+          color="#F47C7C"
+        />
+        <Box text="Orgulho" fontSize="20px" colorText="#ffff" color="#F47C7C" />
+        <Box
+          text="Gratidão"
+          fontSize="20px"
+          colorText="#ffff"
+          color="#F47C7C"
+        />
+        <Box text="Familia" fontSize="20px" colorText="#ffff" color="#F47C7C" />
       </IonContent>
     </IonPage>
   );
