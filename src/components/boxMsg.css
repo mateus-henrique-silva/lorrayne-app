@@ -1,0 +1,25 @@
+.BoxMsgSub {
+  height: 400px;
+  width: 350px;
+  background-color: #fad4d4;
+  border-radius: 14px;
+  padding: 30px;
+  flex-direction:column;
+  position: absolute;
+}
+
+hr {
+  border: 0px;
+  border-top: 1px solid lightgray;
+}
+span {
+  margin: 10px auto;
+}
+
+.BoxMsg {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+}

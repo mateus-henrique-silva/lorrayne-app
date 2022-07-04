@@ -5,7 +5,7 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-
+import Msg from "../components/boxMsg";
 import "./Tab1.css";
 import Box from "../components/BoxComponents";
 
@@ -23,7 +23,9 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Love</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <Msg/>
         <Box text="Amor" fontSize="20px" colorText="#ffff" color="#F47C7C" />
+       
         <Box text="Amizade" fontSize="20px" colorText="#ffff" color="#F47C7C" />
         <Box
           text="Admiração"
